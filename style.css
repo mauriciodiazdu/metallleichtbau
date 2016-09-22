@@ -1,0 +1,75 @@
+body{
+	/*background: green;*/
+}
+.page{
+	max-width:  980px;
+	background: white;
+	border: 1px solid black;
+	margin: 10px;
+	padding : 8px;
+	margin: auto;	
+	}
+	
+		
+	header{
+		/*background: orange;*/
+		padding : 8px;
+		border: 1px solid black;
+	}
+	
+	.info{
+		border-bottom: 1px solid #c7c7c8;
+		border-top: 5px solid #019443;
+		margin-bottom: 0;
+		padding: .45em 0 .5em;
+	}
+	
+	.info li {
+	  border-left: 1px solid #c8c8c8;
+		display: inline-block;
+		text-align: left;
+	}
+	.info a {
+		color: #292929;
+		display: inline-block;
+		font-size: 1.125em; /* 18px/16px */
+		padding: .5em 1.15em .5em 1.4em;
+		}
+
+	.info a:hover {
+		color: #029443;
+		text-decoration: none;
+	}
+	.menu {
+		width: 12%;
+		float:left;
+		border: 1px solid black;
+		/*background: yellow;*/
+		padding : 8px;		
+		
+	}
+	
+	main{
+		width: 85%;
+		background: white;
+		border: 1px solid black;
+		float: right;
+	}
+	
+
+	footer{
+		clear:both;
+		border-top: 5px solid green;
+		padding : 8px;
+		border: 1px solid black;
+		/*background: pink;*/	
+		
+	}
+	
+	footer li{
+		display: inline-block;
+	}
+	
+	canvas {
+		border: 3px solid red;
+	}
